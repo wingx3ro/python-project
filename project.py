@@ -5,8 +5,8 @@ def anoigma:
 
 #kleisimo arxeiwn
 def kleisimo:
-    f1.close()
-    f2.close()
+   lessons.close()
+   supervisors.close()
 
 class Lessons:
     def _init_(ID, Date, Classroom, Semester, Prof, Nsup):
