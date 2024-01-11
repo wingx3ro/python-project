@@ -1,14 +1,14 @@
 #anoigma arxeiwn
 def anoigma:
-    f1=open("lessons.csv","r")
-    f2=open("supervisors.csv","r")
+    lessons=open("lessons.csv","r")
+    supervisors=open("supervisors.csv","r")
 
 #kleisimo arxeiwn
 def kleisimo:
     f1.close()
     f2.close()
 
-class Mathimata:
+class Lessons:
     def _init_(ID, Date, Classroom, Semester, Prof, Nsupervisors):
         self.ID=
 
