@@ -9,9 +9,19 @@ def kleisimo:
     f2.close()
 
 class Lessons:
-    def _init_(ID, Date, Classroom, Semester, Prof, Nsupervisors):
+    def _init_(ID, Date, Classroom, Semester, Prof, Nsup):
         self.ID=
+        self.Date=
+        self.Classroom=
+        self.Semester=
+        Self.Prof=
+        self.Nsup=
 
 class Supervisors:
-    def _init_(IDsup, Name, Email, Nsup, Restrictions):
+    def _init_(IDsup, Name, Email, Nsupe, Restrictions):
+        self.IDsup=
+        self.Name=
+        self.Email=
+        self.Nsupe=
+        self.Restrictions=
             
